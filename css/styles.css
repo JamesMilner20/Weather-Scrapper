@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container-fluid {
+  background-image: url("../img/jakob.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  padding-top: 150px;
+
+}
+
+.center {
+  text-align: center;
+}
+
+.white  {
+  color: white;
+}
+
+p {
+  padding: 15px 0 15px 0;
+}
+
+button {
+  margin-top: 20px;
+}
