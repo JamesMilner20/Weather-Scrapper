@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <title>Weather Scraper</title>
   </head>
@@ -24,7 +26,7 @@
             <input type="text" class="form-control" name="city" id="city" placeholder="Eg. London, Paris, Accra...">
 
           </div>
-          <button class="btn btn-success btn-lg" type="button" name="button">Find Forcast for City</button>
+          <button id="findMyWeather" class="btn btn-success btn-lg">Find Forcast for City</button>
 
         </form>
 
