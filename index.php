@@ -28,11 +28,25 @@
           </div>
           <button id="findMyWeather" class="btn btn-success btn-lg">Find Forcast for City</button>
 
+          <div id="success" class="alert alert-success">
+            success!
+          </div>
+
+          <div id="fail" class="alert alert-danger">
+          Could not find weather data for that city. Please try again.
+          </div>
+
+          <div id="noCity" class="alert alert-danger">
+            Please enter a city
+          </div>
+
         </form>
 
         </div>
 
       </div>
+
+
 
     </div>
 
